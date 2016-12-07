@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+add	binaries.js	/^function add(a, b) {$/;"	f
+add	functions1.js	/^function add(a, b) {$/;"	f
+addf	functions1.js	/^function addf(arg) {$/;"	f
+curry	functions1.js	/^ * function curry(binary, first) {$/;"	f
+curry	functions1.js	/^function curry(binary, arg) {$/;"	f
+curry2	functions1.js	/^function curry2(fn, ...args1) {$/;"	f
+curry3	functions1.js	/^function curry3(fn, ...args) {$/;"	f
+function	functions1.js	/^		return function (second) {$/;"	f
+function	functions1.js	/^	 return function() {$/;"	f
+function	functions1.js	/^	return function (first) {$/;"	f
+function	functions1.js	/^	return function(...args2) {$/;"	f
+function	functions1.js	/^	return function(arg1) {$/;"	f
+function	functions1.js	/^	return function(arg2) {$/;"	f
+identifyf	functions1.js	/^ function identifyf(arg) {$/;"	f
+identity	identity.js	/^function identity(x) {$/;"	f
+liftf	functions1.js	/^function liftf(binary) {$/;"	f
+mul	binaries.js	/^function mul(a, b) {$/;"	f
+mull	functions1.js	/^function mull(a, b) {$/;"	f
+sub	binaries.js	/^function sub(a, b) {$/;"	f
