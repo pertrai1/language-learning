@@ -23,7 +23,7 @@ void scope_demo(int count)
 int main(int argc, char *argv[])
 {
 	// test out THE_AGE accessors
-	log_info("My name is %s, age: %d", MY_NAME, get_age());
+	log_info("My name: %s, age: %d", MY_NAME, get_age());
 
 	set_age(100);
 
@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 	// test the scope demo
 	int count = 4;
 	scope_demo(count);
-	scope_demo(count = 20);
+	scope_demo(count * 20);
 
 	log_info("count after calling scope demo: %d", count);
 
