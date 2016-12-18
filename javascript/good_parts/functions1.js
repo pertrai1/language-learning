@@ -164,3 +164,22 @@ function from(start) {
         return next;
     };
 }
+
+function exp(value) {
+    return (Array.isArray(value)) ? value[0](value[1], value[2]) : value;
+}
+
+function addg(first) {
+    function more(next) {
+        if (next === undefined) {
+            return first;
+        }
+
+        first += next;
+        return next;
+    }
+
+    if (first !== undefined) {
+        return more;
+    }
+}
