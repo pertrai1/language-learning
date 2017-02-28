@@ -14,6 +14,11 @@ public class PointSwapper<Type> {
 
   public Type getFirst() { return a; }
   public Type getLast() { return b; }
+  public Type compareSwapper(Type a, Type b) {
+    if (Type a == Type b) {
+      return true;
+    }
+  }
 
   public String toString() {
     return "(" + a + ", " + b + ")";

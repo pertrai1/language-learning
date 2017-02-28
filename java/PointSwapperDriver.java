@@ -31,5 +31,10 @@ public class PointSwapperDriver {
     System.out.println( "after: " + pg2);
     pg2.swap();
     System.out.println( "after after: " + pg2);
+
+    PointSwapper<Boolean> pg3 = new PointSwapper<>(2, 2);
+    pg3.compareSwapper();
+
+
   }
 }
