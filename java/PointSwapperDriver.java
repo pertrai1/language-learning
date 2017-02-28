@@ -32,7 +32,7 @@ public class PointSwapperDriver {
     pg2.swap();
     System.out.println( "after after: " + pg2);
 
-    PointSwapper<Boolean> pg3 = new PointSwapper<>(2, 2);
+    PointSwapper<String> pg3 = new PointSwapper<>("one", "two");
     pg3.compareSwapper();
 
 
